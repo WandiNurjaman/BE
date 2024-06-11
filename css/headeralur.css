@@ -1,0 +1,77 @@
+/* headeralur.css */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #004d40;
+    margin: 0;
+    padding: 0;
+}
+header {
+    background-color: #e0f2f1;
+    padding: 10px 0;
+    border-bottom: 2px solid #004d40;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+nav .nav-left, nav .nav-right {
+    display: flex;
+}
+nav a {
+    color: #004d40;
+    text-decoration: none;
+    padding: 10px 20px;
+}
+nav a:hover {
+    background-color: #004d40;
+    color: white;
+    border-radius: 5px;
+}
+.login-btn {
+    background-color: #004d40;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+.login-btn:hover {
+    background-color: #00332c;
+}
+.header-content {
+    text-align: center;
+    padding: 20px 0;
+}
+.header-content h1 {
+    margin: 0;
+    color: #00695c;
+}
+.container img {
+    display: block;
+    margin: 20px auto;
+    max-width: 100%;
+    height: auto;
+}
+.steps {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px 0;
+}
+.step {
+    width: 45%;
+    background-color: #e0f7fa;
+    margin: 10px 0;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+.step img {
+    max-width: 100px;
+}
+.step h3 {
+    color: #00695c;
+}
